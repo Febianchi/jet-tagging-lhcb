@@ -1,0 +1,29 @@
+# Data — download with: make data
+data/*.csv
+
+# Model artifacts
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Kaggle credentials (never commit these)
+kaggle.json
+.kaggle/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
